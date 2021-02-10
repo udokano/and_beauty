@@ -332,10 +332,11 @@ if ( !function_exists( 'st_add_orignal_quicktags' ) ) {
 				QTags.addButton('ed_redbox', '薄赤ボックス', '<div class="boxes-style redbox">', '</div>');
                 QTags.addButton('ed_bluebox', '薄青ボックス', '<div class="boxes-style bluebox">', '</div>');
                 QTags.addButton('ed_greenbox', '薄緑ボックス', '<div class="boxes-style greenbox">', '</div>');
-                  QTags.addButton('ed_blaunbox', '薄茶色ボックス', '<div class="boxes-style blaunbox">', '</div>');
+                QTags.addButton('ed_blaunbox', '薄茶色ボックス', '<div class="boxes-style blaunbox">', '</div>');
 				QTags.addButton('ed_graybox', 'グレーボックス', '<div class="boxes-style graybox">', '</div>');
 				QTags.addButton('ed_inyoumodoki', '引用風', '<div class="inyoumodoki">', '</div>');
 				QTags.addButton('ed_dl', 'dl', '<dl><dt></dt>', '<dd></dd></dl>');
+				QTags.addButton('ed_card', 'ブログカード', '[nlink url="ここにURLを追加"]');
 				/*QTags.addButton('ed_maruno', 'olタグを囲む数字ボックス', '<div class="maruno">', '</div>');
 				QTags.addButton('ed_maruck', 'ulタグを囲むチェックボックス', '<div class="maruck">', '</div>');*/
 				/*QTags.addButton('ed_scroll_box', 'table横スクロール要素', '<div class="scroll-box">', '</div>');
