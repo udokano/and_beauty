@@ -1,0 +1,404 @@
+/*エディタースタイル*/
+
+
+
+
+/*****************************
+
+
+
+記事本文スタイル
+
+
+
+******************************/
+    
+ 
+      
+      
+
+      
+      
+      /*記事タイトル*/
+.wp-cont {
+    .th-cont {
+        h1 {
+              font-size: 1.6rem;
+              line-height: 34px;
+            margin-top: 10px;
+              margin-bottom: 20px;
+              letter-spacing: 0.01em;
+            font-weight: 600;
+           }
+        }
+    
+    
+     .wp-in {
+       line-height: 1.9;
+        font-size: 16px;
+        letter-spacing: 0.01rem;
+      color: #303030;
+         word-break: break-all;
+         
+/*****************************
+
+
+
+クイックタグのスタイル記述
+
+
+
+******************************/      
+      
+      
+        /*小見出し１*/
+      
+    h2 {
+     border-bottom:solid 1px #ededed;
+       background: none;
+        color: #000;
+        text-align: left;
+      font-size: 1.5rem;
+      padding: 15px 0;
+        padding-bottom: 2px;
+      margin-bottom: 25px;
+        letter-spacing: 0.02em;
+    }
+      
+        /*小見出し2*/
+      h3 {
+          font-size: 1.2rem;
+          margin-bottom: 12px;
+          text-align: left;
+          letter-spacing: 0.01em;
+          font-weight: 600;
+      }
+      
+        /*段落*/
+      
+      p {
+            margin-bottom: 1.7rem;
+       line-height: 1.9;
+        font-size: 16px;
+        letter-spacing: 0.04rem;
+      color: #303030;
+      }
+         
+         @media (max-width: 767px) {
+             
+             p {
+                 font-size: 14px;
+                 line-height: 1.72;
+             }
+         }
+      
+      
+      /*strong*/
+      
+      strong {
+          font-weight: 600;
+          background-color: #FFF3FC;
+          color: #FC88D4;
+          padding: 2px 3px;
+      }
+      
+      
+        /*bold*/
+      
+      .huto {
+          font-weight: 600;
+      }
+      
+        /*bold red*/
+      
+      .hutoaka {
+          color: #FF4CC3;
+      }
+      
+        /*bold yellow*/
+      
+      .hutoyellow {
+          color: #FBA519;
+      }
+      
+        /*sm font-size*/
+      
+      .komozi {
+	font-size: .9rem;
+}
+      
+      
+    /*table style*/  
+      
+      table.blog__tb {
+          border-collapse: collapse;
+          width: 100%;
+          font-size: .9rem;
+          margin-bottom: 2rem;
+          tr {
+              th,td {
+                  text-align: center;
+                  padding: 15px 0;
+                  border: 1px solid #ccc;
+              }
+              th {
+                  font-weight: 600;
+                  font-size: 1.02rem;
+                  width: 12%;
+              }
+              
+              td {
+                width: 42%;
+              }
+              
+              &:nth-of-type(even) {
+                  background-color: #fbfbfb;
+              }
+          }
+          
+          
+          thead {
+              background-color: #efefef;
+              tr {
+                  th {
+                      
+                  }
+              }
+          }
+          
+      }
+    }
+      
+          
+      @media (max-width: 767px) {
+          
+          
+          table.blog__tb {
+          tr {
+              th {
+                  width: 20%;
+                  font-size: .9rem;
+              }
+              
+              td {
+                width: 40%;
+                  font-size: .8rem;
+              }
+          }
+      }
+          
+          
+          
+      }
+          
+      
+    
+      
+.ymarker {
+	background: #FFFF90;
+    padding: 3px 4px;
+}
+.rmarker {
+	background: #FFEFF0;
+	padding: 3px 4px;
+}
+    
+    .boxes-style {
+        padding: 20px;
+        margin-bottom: 20px;
+        line-height: 27px;
+    }
+
+	.underline-yellow {
+		 background: linear-gradient(transparent 60%, #ffff66 60%);
+		padding-bottom: 3px;
+	}
+      
+.yellowbox {
+	
+	border: solid 1px #FFEEBF;
+	background-color: #FFFEF6;
+}
+.redbox {
+	border: solid 1px #FED9DA;
+	background-color: #FFF5F5;
+}
+.graybox {
+	border: solid 1px #ccc;
+	background-color: #f3f3f3;
+}
+
+.bluebox {
+	border: solid 1px #D1D1FF;
+	background-color: #F5F4FE;
+}
+      
+.greenbox {
+	border: solid 1px #BFDFB0;
+	background-color: #F8FFF9;
+}
+      
+.blaunbox {
+	border: solid 1px #FFDDCA;
+	background-color: #FFF4ED;
+}
+      
+      .inyoumodoki {
+	background-color: #fbfbfb;
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #CCC;
+}
+      
+      
+    .sankou {
+	font-size: 14px;
+    text-align: center;
+	background-color: #f8f8f8;
+	color: #454545;
+	border: 1px solid #ccc;
+	padding: 23px 20px;
+	margin: 15px 0;
+        display: block;
+        word-break: break-all;
+}
+	
+	ul,ol {
+		margin-bottom: 20px;
+	}
+    
+    ul > li {
+        list-style-type: disc;
+		list-style-position: inside;
+    }
+    
+    ol > li {
+        list-style-type:decimal;
+		list-style-position: inside;
+    }
+	
+	dl {
+		dt,dd {
+			padding: 10px 12px;
+		}
+		dt {
+			font-weight: 600;
+			font-size: 1.08rem;
+			color: #fff;
+			background-color: #666;
+			border: 1px solid #666;
+			border-bottom: none;
+			line-height: 1.24;
+		}
+		
+		dd {
+			border: 1px solid #666;
+			margin-bottom: 1.7rem;
+			line-height: 1.9;
+			font-size: 16px;
+			letter-spacing: 0.04rem;
+			  @media (max-width: 767px) {
+             
+          
+                 font-size: 14px;
+                 line-height: 1.72;
+             
+         }
+		}
+	}
+	
+	
+	//ブログカード
+	
+	.blog-card {
+		display: block;
+		margin-bottom: 20px;
+		border: 4px solid #E5E5E5;
+		padding: 30px;
+		@media (max-width: 767px) {
+			padding: 6.2%;
+		}
+		&__box {
+			display: flex;
+			justify-content: space-between;
+			@media (max-width: 767px) {
+				display: block;
+			}
+		}
+		
+		&__thumbnail {
+			width: 560px;
+			height: 160px;
+			@media (max-width: 767px) {
+				width: 100%;
+				height: 38vw;
+				margin-bottom: 1.4rem;
+			}
+			img {
+				object-fit: cover;
+				width: 100%;
+				height: 100%;
+			}
+		}
+		
+		&__right {
+			margin-left: 35px;
+			position: relative;
+			@media (max-width: 767px) {
+				margin-left: 0;
+			}
+		}
+		
+		&__title {
+			font-size: 1.42rem;
+			font-weight: 600;
+			margin-bottom: .8rem;
+			@media (max-width: 767px) {
+				font-size: 1.14rem;
+				line-height: 1.28;
+			}
+		}
+		
+		&__excerpt {
+			font-size: 14px;
+			color: #C7C7C7;
+			@media (max-width: 767px) {
+				font-size: 10px;
+			}
+		}
+		
+		&__readmore {
+			position: absolute;
+			font-size: 16px;
+			right: 0;
+			bottom: 0;
+			letter-spacing: .0075em;
+			padding: 8px 28px;
+			color: #fff;
+			background-color: #737373;
+			line-height: 1;
+			border-radius: 3px;
+			@media (max-width: 767px) {
+				position: static;
+				width: 50%;
+				margin: 1.22rem auto 0;
+				text-align: center;
+				padding: 12px 24px;
+			}
+			
+		}
+	}
+      
+      
+   
+  
+}

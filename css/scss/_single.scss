@@ -1,0 +1,349 @@
+/*SNSエリアスタイル*/
+
+
+.mid {
+  padding: 25px 0;
+  border-top: 1px solid #454545;
+  border-bottom: 1px solid #454545;
+  text-align: center;
+    .heart {
+        display: inline-block;
+        button {
+            vertical-align: baseline;
+        }
+    }
+    
+  .icons {
+      display: inline-block;
+    width: 40px;
+      margin: 0 1.47%;
+      &:last-child {
+          
+      }
+  }
+}
+
+.wp-cont {
+  clear: both;
+    margin-bottom: 8px;
+    .th-cont {
+        margin:  35px 0;
+        
+     .time {
+    
+        font-size: 12px;
+        letter-spacing: 1px;
+       }    
+    
+    
+      h1 {
+        font-size: 2.0rem;
+        line-height: 1.75;
+        font-weight: 600;
+      }
+    }
+  
+/*記事本文上カテゴリーリスト設定*/
+    
+  .category-area {
+  background: none;
+	text-align: left;
+      padding: 0;
+      display: block;
+      margin-bottom: 40px;
+      ul {
+          font-size: 0;
+          li {
+            display: inline-block;
+              background-color: #f3f3f3;
+              margin-right: 1.5%;
+              margin-bottom: 10px;
+              font-size: 1.0rem;
+              a {
+                    padding: 5px 8px;
+                  display: block;
+                  color: #222222;
+              }
+          }
+      }
+  }
+    
+    
+    .category-area.bottom {
+        margin-bottom: 0;
+    }
+    
+
+}
+
+/*記事下カテゴリーリストスタイル*/
+
+.category-list {
+  margin-bottom: 40px;
+  font-size: 0;    
+  .category-area {
+    padding-left: 0;
+    margin-bottom: 15px;
+    display: inline-block;
+    background: none;
+    font-size: 1.0rem;
+      margin-right: 1.5%;
+      margin-bottom: 10px;
+    a {
+      color: #222222;
+      padding: 5px 8px;
+      background-color: #f3f3f3;
+      display: block;
+    }
+  }
+}
+
+.contena {
+    width: 100%;
+}
+
+.au-cont,.sns-area {
+    height: 180px;
+      box-sizing: border-box;
+}
+
+/*筆者紹介*/
+
+.au-cont {
+    width: 100%;
+    margin: 0 auto 40px;
+     border: 1px solid #ccc;
+}
+
+.au-area {
+  padding: 3.8% 3.98%;
+  height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  box-sizing: border-box;
+  dt {
+    margin-right: 1%;
+    .p-wra {
+      width: 122px;
+      height: 122px;
+      img {
+        width: 100%;
+       height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  dd {
+      margin-left: 1%;
+      h4.au-t {
+          font-size: 1.34rem;
+          margin-bottom: .7rem;
+      }
+      .doctor-name {
+          font-weight: 600;
+          letter-spacing: 1px;
+      }
+    p {
+      margin-bottom: 1rem;
+      &.shoukai {
+        font-size: 0.8rem;
+        margin-bottom: 0;
+		letter-spacing: 1px;
+        }
+    }
+      
+      .kinmusaki {
+                    font-size: 14px;
+                }
+      
+       ul {
+            li {
+                font-size: 0;
+
+                margin-bottom: 0.2rem;
+                span {
+                    font-size: 10px;
+                    opacity: .7;
+                }
+            }
+        }
+  }
+}
+
+
+/*SNS AREA*/
+
+ .sns-area {
+        border: 1px solid #ccc;
+   
+     ul {
+         justify-content: center;
+         padding: 35px 0;
+           box-sizing: border-box;
+         width: 100%;
+         height: 100%;
+         li {
+             width: 40px;
+             margin: 0 2%;
+             a {
+                 display: block;
+             }
+         }
+     }
+    }
+
+/*バナー設置エリア*/
+
+.banner_wrap {
+  width: 82%;
+  max-width: 300px;
+  margin: 0 auto 60px;
+}
+
+/*関連記事リストスタイル*/
+
+.related h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 15px 0;
+}
+
+/*クリニック記事ページ*/
+
+.header-img {
+  height: 300px;
+  margin-bottom: 45px;
+  img {
+    object-fit: cover;
+    width: 100%;
+      height: 100%;
+  }
+}
+
+.single-clinic {
+  h1 {
+    font-size: 1.65rem;
+    line-height: 1.0;
+    margin: 20px 0;
+    letter-spacing: 2px;
+  }
+  .btn-wra .btn {
+    width: 62%;
+  }
+}
+
+/*pc*/
+
+@media (min-width: 768px) {
+  /*SNSエリアスタイル*/
+  .sns-wrap {
+    margin: 25px 0 70px;
+    
+    .heart {
+    }
+    .icons {
+      margin: 0 1.2%;
+    }
+    .time {
+      width: 250px;
+      font-size: 16px;
+      letter-spacing: 1px;
+      line-height: 0;
+      margin-bottom: 10px;
+      text-align: right;
+    }
+  }
+  /*記事下カテゴリーリストスタイル*/
+  .category-list {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .category-area {
+      background-color: #f3f3f3;
+    }
+  }
+    
+    .wp-cont {
+        margin-bottom: 35px;
+    }
+  
+    
+    .contena {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto 50px;
+    }
+    
+    
+    .au-cont,.sns-area {
+    height: 210px;
+        width: 440px;
+}
+    
+    
+    .au-cont {
+        margin: 0px;
+         margin-right: 15px;
+    }
+    
+     
+  .au-area {
+        padding: 25px;
+     
+    dt {
+        margin-left: 5px;
+        .p-wra {
+      width: 135px;
+      height: 135px;
+      }
+    }
+    dd {
+        
+         h4.au-t {
+  font-size: 1.24rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+             line-height: 1.0;
+}
+      
+    }
+  }
+    
+    
+    .sns-area {
+        margin-left: 15px;
+     ul {
+         padding: 35px 0;
+         li {
+             width: 40px;
+             margin: 0 2%;
+         }
+     }
+    }
+    
+   
+    
+    
+    .banner_wrap {
+        width: 320px;
+        margin: 0;
+    }    
+    
+  .related ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    li {
+      width: 33.333%;
+      margin-bottom: 0px;
+      margin-right: 0;
+      border: none;
+      &:nth-of-type(3n) {
+        margin-right: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+
+
+@mixin box-center {
+    margin: 0 auto;
+}
+
+@mixin img-fit {
+    width: 100%;
+    height: auto;
+}
+
+@mixin trxy {
+    transform: translate(-50%,-50%);
+}
+
+@mixin try {
+    transform: translateY(-50%);
+}
+
+@mixin trx {
+    transform: translateX(-50%);
+}
+
+@mixin table-style {
+    display: table-cell;
+    font-size: 1.2rem;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 10px 0;
+    color: #777777;
+}

@@ -1,0 +1,317 @@
+/* CSS Document */
+.cont {
+  margin-bottom: 60px;
+    h2 {
+        /*margin-bottom: 34px;*/
+    }
+}
+
+.img-box {
+  height: 220px;
+  margin-bottom: 15px;
+  img {
+    object-fit: cover;
+    height: -webkit-fill-available;
+    height: -moz-available;
+    height: fill-available;
+    -webkit-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+}
+
+.cont2 {
+  &.img-box img:hover, .img-box img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+.cont {
+  .in {
+    .txt-cont {
+      line-height: 1.7;
+    }
+    .dis {
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+      color: #454545;
+      p {
+        color: #454545;
+        font-size: 1rem;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+      }
+    }
+    .pri {
+      font-size: 1.76rem;
+      letter-spacing: 1px;
+      font-weight: 600;
+      color: #FF2F70;
+      span {
+        display: inline-block;
+          font-size: 1.4rem;
+      }
+      .pri-list {
+        overflow: hidden;
+        margin-bottom: 17px;
+          margin-bottom: 0.8rem;
+      }
+      .menu_name {
+        width: 12em;
+        line-height: 1.0;
+      }
+      .menu_valu {
+        float: right;
+        line-height: 1.0;
+      }
+    }
+   
+  }
+}
+
+//施術可能クリニックスライド設定
+
+.bg-gray {
+    background-color: $bg-gray;
+    width: 100%;
+    padding: 24px 0;
+    .cont3 {
+        width: 100%;
+        margin: 0 auto;
+        
+        .slider {
+            li {
+                padding: 0 7px;
+                
+                .img-box {
+                   width: 100%;
+                    height: 95px;
+                    overflow: hidden;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                
+                .shopn {
+                    margin-top: 10px;
+                    font-size: 14px;
+                    text-align: center;
+                    display: block;
+                  }
+            }
+        }
+    }
+}
+
+
+//施術可能院下ボタン設定
+
+.cbtn-cont {
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    .cbtns {
+        width: 100%;
+        background-color: #666;
+        color: #fff;
+        padding: 7px 0;
+        margin: 0 0 5px;
+        border-radius: 2px;
+        text-align: center;
+        &:last-child {
+            margin: 0;
+        }
+        a {
+            color: #fff;
+            display: block;
+            font-size: 0.7rem;
+            letter-spacing: 1px;
+        }
+        
+    }
+}
+
+// 予約ボタンのみ色変更
+
+.cbtn-cont .rs {
+    background-color: #FF91C0;
+}
+
+/*詳しく見るボタン*/
+
+ .btn-wra {
+      padding: 15px 0;
+      text-align: center;
+    }
+
+.cont2 {
+    ul {
+        li {
+            .thum-box {
+                height: 260px;
+                a {
+                    .txt {
+                        .in {
+                            .tit {
+                                padding-top: 30px;
+                            }
+                            .ac-cont {
+                                padding-top: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+
+    
+    .img-box {
+    height: 270px;
+  }
+  .cont {
+    .in {
+      .img-box {
+        float: left;
+          width: 400px;
+      }
+      .txt-cont {
+        padding-left: 450px;
+      }
+      .pri .menu_valu {
+        float: none;
+          margin-bottom: 0.7rem;
+      }
+        
+        .pri {
+            .pri-list {
+                
+                margin-bottom: 0.5rem;
+                
+                span {
+                font-size: 1.4rem;
+              }
+                
+            }
+            
+        }    
+        
+      .btn-wra {
+          text-align: right;
+        padding-top: 38px;
+      }
+    }
+    ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      li {
+        width: 33.33333%;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        border: none;
+        &:nth-of-type(3n) {
+          margin-right: 0;
+        }
+        .img-box {
+          float: none;
+          width: 100%;
+          height: 220px;
+          margin-bottom: 15px;
+        }
+        .txt {
+          padding-left: 0px;
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+    
+    .bg-gray {
+    background-color: $bg-gray;
+    width: 100%;
+    padding: 24px 0;
+    .cont3 {
+        width: 1030px;
+        margin: 0 auto;
+    }
+}
+    
+    
+    //施術可能院下ボタン設定
+
+.cbtn-cont {
+    margin: 10px 0 15px;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 100%;
+    .cbtns {
+        width: 48%;
+        padding: 7px 0;
+        margin: 0 ;
+        border-radius: 2px;
+        text-align: center;
+        &:last-child {
+            margin: 0;
+        }
+        a {
+            font-size: 0.7rem;
+        }
+        
+    }
+}
+
+
+/*詳しく見るボタン*/
+
+ .btn-wra {
+      padding: 38px 0;
+      text-align: center;
+     .btn {
+         width: 260px;
+     }
+    }
+
+    
+  .cont3 ul {
+    display: block;
+    li {
+      margin: 0;
+        padding: 0 10px;
+       // margin-right: 0.3%;
+           
+        
+      /*&:nth-of-type(3n) {
+        margin-right: 0;
+      }
+      &:nth-of-type(4n) {
+        padding-left: 0;
+      }    */
+        
+      .img-box {
+        width: 100%!important;
+        height: 240px!important;
+        margin-bottom: 7px;
+        img {
+          width: 100%;
+        }
+      }
+      .shopn {
+        margin-top: 22px;
+        font-size: 18px;
+        display: block;
+      }
+    }
+  }
+    
+}
