@@ -171,7 +171,7 @@ return 120;
 add_filter('excerpt_mblength', 'my_excerpt_length');
 
 function my_excerpt_more($more) {
-return '・・・';
+return '...';
 }
 add_filter('excerpt_more', 'my_excerpt_more');
 
@@ -234,7 +234,7 @@ $nlink .='
     <div class="blog-card__right">
         <div class="blog-card__title">'. $title .' </div>
         <div class="blog-card__excerpt">'. $excerpt .'</div>
-		<div class="blog-card__readmore">記事を読む</div>
+		<div class="blog-card__readmore"><span class="blog-card__readmore-in">記事を読む</span></div>
     </div>
   </div>
 </a>';
