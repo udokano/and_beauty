@@ -2241,6 +2241,7 @@ display: flex;
 .wp-cont .blog-card__right {
   margin-left: 35px;
   position: relative;
+  max-width: 634px;
 }
 @media (max-width: 767px) {
   .wp-cont .blog-card__right {
@@ -2251,6 +2252,7 @@ display: flex;
   font-size: 1.42rem;
   font-weight: 600;
   margin-bottom: .5rem;
+  line-height: 1.22;
 }
 @media (max-width: 767px) {
   .wp-cont .blog-card__title {
@@ -2261,6 +2263,7 @@ display: flex;
 .wp-cont .blog-card__excerpt {
   font-size: 14px;
   color: #C7C7C7;
+  margin-bottom: 45px;
 }
 @media (max-width: 767px) {
   .wp-cont .blog-card__excerpt {

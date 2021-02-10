@@ -381,6 +381,7 @@
 		&__right {
 			margin-left: 35px;
 			position: relative;
+			max-width: 634px;
 			@media (max-width: 767px) {
 				margin-left: 0;
 			}
@@ -390,6 +391,7 @@
 			font-size: 1.42rem;
 			font-weight: 600;
 			margin-bottom: .5rem;
+			line-height: 1.22;
 			@media (max-width: 767px) {
 				font-size: 1.14rem;
 				line-height: 1.28;
@@ -399,6 +401,7 @@
 		&__excerpt {
 			font-size: 14px;
 			color: #C7C7C7;
+			margin-bottom: 45px;
 			@media (max-width: 767px) {
 				font-size: 10px;
 			}
