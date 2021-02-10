@@ -229,6 +229,7 @@ $nlink .='
 
 <a href="'. $url .'" class="blog-card" target="_blank" rel="noopener noreferrer">
   <div class="blog-card__box">
+  <div class="blog-card__band"><span class="blog-card__band-in">あわせて読みたい</span></div>
     <div class="blog-card__thumbnail">'. $img_tag .'</div>
     <div class="blog-card__right">
         <div class="blog-card__title">'. $title .' </div>
